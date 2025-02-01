@@ -2,8 +2,8 @@
  **Best way to manage your spending habits is to know what you buy** 
 
 *This projects aim is provide detailed information about  your spending habits.
-We generally manage our expenses as total income or total expenses at the end of the month. We don't remember  what we actually bought
-This project gets your receipt informations(name,price,quantity,date) and send to database. You can visualize and  see your receipts history.
+We generally manage our expenses as total income or total expenses at the end of the month. We don't remember  what we actually bought. This is what you need.
+It gets your receipt informations(name,price,quantity,date) and send to database. You can visualize and  see your receipts history.
 If you want to talk or get suggestion about your habit , you can talk with spending  manager assistant .It can provide detailed suggestion based on your receipt history.*
 
 
