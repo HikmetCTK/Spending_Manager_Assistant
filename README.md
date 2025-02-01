@@ -22,3 +22,6 @@ If you want to talk or get suggestion about your habit , you can talk with spend
 * Gemini🔎🤖: Used to OCR from receipts and talk with them.
 * Tabulate🔢: Used to show receipt informations in tabulate form.
 * Matplotlib📊 : used to visualize receipt informations.
+
+
+** Key features **
