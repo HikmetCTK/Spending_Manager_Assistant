@@ -1,5 +1,5 @@
 # Spend_Manager_Assistant 🎉
- **-Best way to manage your spending habits is to know what you buy.**
+ **❗Best way to manage your spending habits is to know what you buy.**
 
  
 # About the project🎯
