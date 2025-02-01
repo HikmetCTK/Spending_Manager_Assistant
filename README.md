@@ -1,5 +1,5 @@
 # Spend_Manager_Assistant 🎉
- **Best way to manage your spending habits is to know what you buy**
+ Best way to manage your spending habits is to know what you buy
 
  
 # About the project🎯
@@ -24,4 +24,4 @@ If you want to talk or get suggestion about your habit , you can talk with spend
 * Matplotlib📊 : used to visualize receipt informations.
 
 
-** Key features **
+# **Key features**
