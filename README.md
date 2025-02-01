@@ -1,4 +1,5 @@
-# SpendManager
+# Spend_Manager_Assistant 
+ **Best way to manage your spending habits is to know what you buy** 
 
 This projects aim is provide detailed information about  your spending habits.
 
