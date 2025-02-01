@@ -8,10 +8,10 @@ If you want to talk or get suggestion about your habit , you can talk with spend
 
 
 **🚀 Project Features:**
-📌* Upload flexibility♾️: Upload image from pc or take picture directly and upload it
-📌* Optical Character Recognition(OCR)🔎: High recognition quality on different type of receipt thanks to gemini 2.0 model.
-📌* Response flexibility⚡: Receipt output  can be adjusted according to user's desired like changing name or quantity
-📌* View all receipt history👀: All history is visible in readable form and visualized in barplot
-📌* Spending manager chatbot🤖: Customer can talk or ask whatever she/he wants. 
+*📌 Upload flexibility♾️: Upload image from pc or take picture directly and upload it
+*📌 Optical Character Recognition(OCR)🔎: High recognition quality on different type of receipt thanks to gemini 2.0 model.
+*📌 Response flexibility⚡: Receipt output  can be adjusted according to user's desired like changing name or quantity
+*📌 View all receipt history👀: All history is visible in readable form and visualized in barplot
+*📌 Spending manager chatbot🤖: Customer can talk or ask whatever she/he wants. 
 
 
