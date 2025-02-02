@@ -36,7 +36,7 @@ If you want to talk or get suggestion about your habit , you can talk with spend
 * Gemini🔎🤖: Used for OCR from receipts and talking with them.
 * Tabulate🔢: Used to show receipt informations in tabulate form.
 * Matplotlib📊 : Used to visualize receipt informations.
-* PymySQL🛢: Used to retrieve and save receipt infromations
+* PymySQL🛢: Used to retrieve or  save receipt informations to database
 
 
 # Sample Pictures 🖼️
