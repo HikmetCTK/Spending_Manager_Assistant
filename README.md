@@ -37,7 +37,11 @@ If you want to talk or get suggestion about your habit , you can talk with spend
 
 # Sample Pictures 🖼️
 ![receipt-json_text](https://github.com/user-attachments/assets/9c9e80c3-8bc2-4a01-9f3a-d5a389aadf9d)
+
 ------------------------------------------------------------------------------------------------------
+
 ![view_receipts](https://github.com/user-attachments/assets/a019ca4b-2f5e-4770-afeb-cdf264f8d526)
+
 ------------------------------------------------------------------------------------------------------
+
 ![spend_manager_asisstant](https://github.com/user-attachments/assets/5758af65-c8cb-477d-af82-ef85ba1f8eb1)
