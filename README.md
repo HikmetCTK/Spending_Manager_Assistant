@@ -25,6 +25,13 @@ If you want to talk or get suggestion about your habit , you can talk with spend
 * View all receipt history👀: All history is visible in readable form and visualized in barplot
 * Spending manager chatbot🤖: Customer can talk or ask whatever she/he wants. 
 
+# Tools 🧰
+
+--
+
+Code:Python
+Database:MySQL
+AI:Gemini(2.0-experimental for OCR task, 1.5-flash for chatbot)
 
 
 
