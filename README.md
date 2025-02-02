@@ -1,6 +1,10 @@
 # Spend_Manager_Assistant 🎉
  **📌Best way to manage your spending habits is to know what you buy. This project provide detailed information about your spending habit and makes recommendation on them.**
 
+# Project Demo Video
+https://github.com/user-attachments/assets/ff5099f8-df59-44a7-9c52-9406eae1a72d
+
+
  
 # About the project🎯
 *This projects aim is provide detailed information about  your spending habits.
