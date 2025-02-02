@@ -18,7 +18,7 @@ If you want to talk or get suggestion about your habit , you can talk with spend
 
 
 
-# 🚀 Project Features:
+#  Project Features🚀
 * Upload flexibility♾️: Upload image from pc or take picture directly and upload it
 * Optical Character Recognition(OCR)🔎: High recognition quality on different type of receipt thanks to gemini 2.0 model.
 * Response flexibility⚡: Receipt output  can be adjusted according to user's desired like changing name or quantity
@@ -28,7 +28,7 @@ If you want to talk or get suggestion about your habit , you can talk with spend
 
 
 
-# 🔧 Technologies Used:
+#  Technologies Used🔧
 * Gradio💻: Used to provide a modern and interactive web interface.
 * Gemini🔎🤖: Used to OCR from receipts and talk with them.
 * Tabulate🔢: Used to show receipt informations in tabulate form.
