@@ -15,8 +15,8 @@ def connect():
         try:
             connection=pymysql.connect(host='localhost',
                                 user='root',
-                                password="sql5858",
-                                database='rcpt_mng1')
+                                password="password",
+                                database='database_name')
             return connection
         except pymysql.MySQLError as e:
             return str(e)   
