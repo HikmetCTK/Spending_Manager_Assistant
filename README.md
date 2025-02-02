@@ -16,12 +16,16 @@ It gets your receipt informations(name,price,quantity,date) and send to database
 If you want to talk or get suggestion about your habit , you can talk with spending  manager assistant .It can provide detailed suggestion based on your receipt history.*
 
 
+
+
 # 🚀 Project Features:
 * Upload flexibility♾️: Upload image from pc or take picture directly and upload it
 * Optical Character Recognition(OCR)🔎: High recognition quality on different type of receipt thanks to gemini 2.0 model.
 * Response flexibility⚡: Receipt output  can be adjusted according to user's desired like changing name or quantity
 * View all receipt history👀: All history is visible in readable form and visualized in barplot
 * Spending manager chatbot🤖: Customer can talk or ask whatever she/he wants. 
+
+
 
 
 # 🔧 Technologies Used:
