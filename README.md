@@ -40,7 +40,8 @@ If you want to talk or get suggestion about your habit , you can talk with spend
 
 ------------------------------------------------------------------------------------------------------
 
-![view_receipts](https://github.com/user-attachments/assets/a019ca4b-2f5e-4770-afeb-cdf264f8d526)
+![Receipt_history_and_visualization](https://github.com/user-attachments/assets/8549d4a9-5b40-454a-a429-5605e92c780d)
+
 
 ------------------------------------------------------------------------------------------------------
 
