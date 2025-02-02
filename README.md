@@ -37,6 +37,7 @@ If you want to talk or get suggestion about your habit , you can talk with spend
 
 # Sample Pictures 🖼️
 
+| ![Screenshot 1](https://github.com/user-attachments/assets/3a86b0cd-9986-45e0-bec4-8aeea80485de) | ![Screenshot 2](https://github.com/user-attachments/assets/762130b6-ac9c-4491-891a-63cf39aac944) |
 | ![Ekran görüntüsü 2025-02-02 144432](https://github.com/user-attachments/assets/3a86b0cd-9986-45e0-bec4-8aeea80485de) | ![Ekran görüntüsü 2025-02-02 144457](https://github.com/user-attachments/assets/762130b6-ac9c-4491-891a-63cf39aac944) |
 ![Ekran görüntüsü 2025-02-02 144510](https://github.com/user-attachments/assets/a019ca4b-2f5e-4770-afeb-cdf264f8d526)
 ![Ekran görüntüsü 2025-02-02 144600](https://github.com/user-attachments/assets/5758af65-c8cb-477d-af82-ef85ba1f8eb1)
