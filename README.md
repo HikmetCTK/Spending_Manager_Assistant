@@ -27,9 +27,9 @@ If you want to talk or get suggestion about your habit , you can talk with spend
 
 # Tools 🧰
 
-* Code: Python
-* Database: MySQL
-* AI: Gemini(2.0-experimental for OCR task, 1.5-flash for chatbot)
+* Code: Python 🐍
+* Database: MySQL 🛢
+* AI: Gemini(2.0-experimental model for OCR task, 1.5-flash model for chatbot)🧠
 
 
 
