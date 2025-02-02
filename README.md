@@ -30,9 +30,9 @@ If you want to talk or get suggestion about your habit , you can talk with spend
 
 #  Technologies Used🔧
 * Gradio💻: Used to provide a modern and interactive web interface.
-* Gemini🔎🤖: Used to OCR from receipts and talk with them.
+* Gemini🔎🤖: Used for OCR from receipts and talking with them.
 * Tabulate🔢: Used to show receipt informations in tabulate form.
-* Matplotlib📊 : used to visualize receipt informations.
+* Matplotlib📊 : Used to visualize receipt informations.
 
 
 
