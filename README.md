@@ -19,17 +19,15 @@ If you want to talk or get suggestion about your habit , you can talk with spend
 
 
 #  Project Features🚀
-* Upload flexibility♾️: Upload image from pc or take picture directly and upload it
-* Optical Character Recognition(OCR)🔎: High recognition quality on different type of receipt thanks to gemini 2.0 model OCR power.
-* Response flexibility⚡: Receipt output  can be adjusted according to user's desired like changing name or quantity
-* View all receipt history👀: All history is visible in readable form and visualized in barplot
-* Spending manager chatbot🤖: Customer can talk or ask whatever she/he wants. 
+* ✅ Flexible Upload♾️: Upload image from pc or take picture directly and upload it
+* ✅ High-Quality OCR🔎: High recognition quality on different type of receipt thanks to gemini 2.0 model.
+* ✅ Customizable Output⚡: Receipt output  can be adjusted according to user's desired like changing name or quantity
+* ✅ Full Purchase History: View all your past purchases in a readable format with visualized report.
+* ✅ AI-Powered Chatbot: Analyze your spending and get suggestions with Gemini 1.5-Flash.
 
 # Tools 🧰
 
-* Code: Python 🐍
-* Database: MySQL 🛢
-* AI: Gemini🧠(2.0-experimental model for OCR task, 1.5-flash model for chatbot)
+🐍 Python | 🛢 MySQL | 🤖 Gemini AI | 💻 Gradio | 📊 Matplotlib | 🔢 Tabulate
 
 
 
