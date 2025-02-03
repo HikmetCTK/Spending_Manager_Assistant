@@ -3,11 +3,7 @@
 
 # Project Demo Video 🎥
 
-![Chatbot-demo-video](
-
-https://github.com/user-attachments/assets/8ec73d09-c4cb-445f-b266-091f3d74a59f
-
-)
+![Chatbot-demo-video](https://github.com/user-attachments/assets/8ec73d09-c4cb-445f-b266-091f3d74a59f)
 
 
 
