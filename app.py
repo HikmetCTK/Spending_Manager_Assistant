@@ -2,6 +2,7 @@ import gradio as gr
 import pymysql
 from dotenv import load_dotenv
 import google.generativeai as genai
+from PIL import Image
 import json
 from pathlib import Path
 import os
@@ -15,8 +16,8 @@ def connect():
         try:
             connection=pymysql.connect(host='localhost',
                                 user='root',
-                                password="password",
-                                database='database_name')
+                                password="sql5858",
+                                database='rcpt_mng1')
             return connection
         except pymysql.MySQLError as e:
             return str(e)   
@@ -64,14 +65,13 @@ class Agent:
         except Exception as e:
             return str(e)
         
-# Database functions(Inserting data to database)
+ # database functions(inserting data to database)
 
-def last_receipt_id(person_id): 
-"""This function takes last receipt id if it is not exist return 1"""
+def last_receipt_id(person_id):
     connection=connect()
     with connection.cursor() as cursor:
         try:
-            query="select max(r_id) from receipt_items where c_id=%s"  
+            query="select max(r_id) from receipt_items where c_id=%s"  #!!!!!!! c_id is not in receipt_items table
             cursor.execute(query,(person_id,))
             result=cursor.fetchone()
             
@@ -88,7 +88,6 @@ def last_receipt_id(person_id):
             connection.close()
 
 def receipt_item(r_id,r_item_name,r_quantity,r_price,c_id):
-    """This function inserts receipt informations to database (name,quantity,price)"""    
     connection=connect()
     try:
         with connection.cursor() as cursor:
@@ -105,7 +104,6 @@ def receipt_item(r_id,r_item_name,r_quantity,r_price,c_id):
         connection.close()           
 
 def p_total_price(r_id,total_amount):
-"""This function inserts total amount of receipt  to database"""
     connection=connect()
     try:
         with connection.cursor() as cursor:
@@ -247,7 +245,7 @@ Always ensure your responses are polite, actionable, and relevant to the user's 
             query = """
             SELECT   ri.r_item_name, ri.r_quantity, ri.r_price, rh.r_date 
             FROM     receipt_items ri         
-            JOIN     receipt_header rh ON rh.all_receipt_id = ri.c_id 
+            JOIN     receipt_header rh ON rh.c_id = ri.c_id 
             WHERE    ri.c_id = %s
             AND rh.r_date >= DATE_SUB(CURDATE(), INTERVAL 30 DAY)
             ORDER BY rh.r_date DESC;
@@ -261,6 +259,7 @@ Always ensure your responses are polite, actionable, and relevant to the user's 
             records_str = "\n".join(formatted_records)
             final_prompt = prompt.format(all_data=records_str)
             #print(records)
+            
             return final_prompt
     except Exception as e:
         return str(e)
@@ -301,21 +300,41 @@ def get_customer_receipts(cid):
         connection.close()
             
             
-def plot_receipt_summary(data):
+def plot_receipt_summary(c_id):
     """This function generates a bar plot of the total prices of items in the receipt."""
-    item_names = [item[0] for item in data ]       # Extract item names
-    #quantities = [item[1] for item in data]       # Extract quantities
-    total_prices = [item[2] for item in data]
+    connection=connect()
+    try:
+        with connection.cursor() as cursor:
+            query="""SELECT ri.r_item_name, SUM(ri.r_price) AS total_price
+FROM receipt_items ri
+JOIN receipt_header rh ON rh.c_id = ri.c_id
+WHERE ri.c_id = %s
+AND rh.r_date >= DATE_SUB(CURDATE(), INTERVAL 30 DAY)
+GROUP BY ri.r_item_name
+ORDER BY total_price asc;"""
+            cursor.execute(query,(c_id))
+            record=cursor.fetchall()
+            item_names = [item[0] for item in record if item[1]>50]       # Extract item names
+                # Extract quantities
+            total_prices = [item[1] for item in record if item[1]>50]
 
-    
-    # Create the plot
-    plt.figure(figsize=(10, 15))
-    plt.barh(item_names, total_prices, color="skyblue")
-    plt.xlabel("Total Price (₺)")
-    plt.ylabel("Item Name")
-    plt.title("Receipt Summary")
-    plt.tight_layout()
-    return plt.gcf()
+            
+            # Create the plot
+            
+            plt.figure(figsize=(10, 15))
+            plt.barh(item_names, total_prices, color="skyblue")
+            plt.xlabel("Total Price (₺)")
+            plt.ylabel("Item Name")
+            plt.title("Receipt Summary")
+            plt.tight_layout()
+            return plt.gcf()
+            
+           
+    except Exception as e:
+        return str(e)
+    finally:
+        cursor.close()
+        connection.close()
 
 def talk_with_receipt(question, cid, chat_hist):
     """This function allows the user to chat with the receipt assistant."""
@@ -447,7 +466,7 @@ with gr.Blocks() as app:
                     get_receipts_button = gr.Button("Get all Receipts 🔄")
 
                 with gr.Column():
-                    gr.Markdown("### View Receipt Summary 📊 ⚠️You should run first receipt history part")
+                    gr.Markdown("### View Receipt Summary 📊 ")
                     receipt_plot = gr.Plot(
                     label="Receipt Summary Plot"
                      # Assign the plot function
@@ -536,7 +555,7 @@ with gr.Blocks() as app:
 
     visualize_button.click(
         fn=plot_receipt_summary,
-        inputs=[tuple_perceipt_data],
+        inputs=[cid_state],
         outputs=[receipt_plot]
     )
     exit_button.click(exit_gradio)
