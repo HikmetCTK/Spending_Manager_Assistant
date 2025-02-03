@@ -3,10 +3,10 @@
 
 # Project Demo Video 🎥
 
-![Chatbot-demo-video](
 
-https://github.com/user-attachments/assets/8ec73d09-c4cb-445f-b266-091f3d74a59f
-)
+https://github.com/user-attachments/assets/67f9a221-ac94-4f8b-9da2-664b2291e9da
+
+
 
 
 
