@@ -1,5 +1,4 @@
 
-https://github.com/user-attachments/assets/011a3ffd-243a-4ba6-8f7a-39ebd93a9529
 # Spending_Manager_Assistant 🎉
  **📌Best way to manage your spending habits is to know what you buy. This project provide detailed information about your spending habit and makes recommendation on them.**
 
