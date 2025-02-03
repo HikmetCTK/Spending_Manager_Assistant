@@ -64,13 +64,14 @@ class Agent:
         except Exception as e:
             return str(e)
         
- # database functions(inserting data to database)
+# Database functions(Inserting data to database)
 
-def last_receipt_id(person_id):
+def last_receipt_id(person_id): 
+"""This function takes last receipt id if it is not exist return 1"""
     connection=connect()
     with connection.cursor() as cursor:
         try:
-            query="select max(r_id) from receipt_items where c_id=%s"  #!!!!!!! c_id is not in receipt_items table
+            query="select max(r_id) from receipt_items where c_id=%s"  
             cursor.execute(query,(person_id,))
             result=cursor.fetchone()
             
@@ -87,6 +88,7 @@ def last_receipt_id(person_id):
             connection.close()
 
 def receipt_item(r_id,r_item_name,r_quantity,r_price,c_id):
+    """This function inserts receipt informations to database (name,quantity,price)"""    
     connection=connect()
     try:
         with connection.cursor() as cursor:
@@ -103,6 +105,7 @@ def receipt_item(r_id,r_item_name,r_quantity,r_price,c_id):
         connection.close()           
 
 def p_total_price(r_id,total_amount):
+"""This function inserts total amount of receipt  to database"""
     connection=connect()
     try:
         with connection.cursor() as cursor:
