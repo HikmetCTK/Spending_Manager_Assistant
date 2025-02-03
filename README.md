@@ -1,11 +1,13 @@
+
+https://github.com/user-attachments/assets/011a3ffd-243a-4ba6-8f7a-39ebd93a9529
 # Spending_Manager_Assistant 🎉
  **📌Best way to manage your spending habits is to know what you buy. This project provide detailed information about your spending habit and makes recommendation on them.**
 
 # Project Demo Video 🎥
 
 
-https://github.com/user-attachments/assets/67f9a221-ac94-4f8b-9da2-664b2291e9da
 
+https://github.com/user-attachments/assets/cf272352-4eca-4605-8754-c973419f85f1
 
 
 
@@ -33,9 +35,7 @@ If you want to talk or get suggestion about your habit , you can talk with spend
 🐍 Python | 🛢 MySQL | 🤖 Gemini AI | 💻 Gradio | 📊 Matplotlib | 🔢 Tabulate
 
 
-
 #  Technologies Used🔧
-
 
 
 * Gradio💻: Used to provide a modern and interactive web interface.
