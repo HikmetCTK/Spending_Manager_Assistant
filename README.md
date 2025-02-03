@@ -3,7 +3,8 @@
 
 # Project Demo Video 🎥
 
-![Chatbot-demo-video] (https://github.com/user-attachments/assets/bdb1f60f-e183-4912-9594-99da5f2ab715)
+![Chatbot-demo-video] (
+https://github.com/user-attachments/assets/a4bcf52a-cde9-4f87-9349-463e96763e40)
 
 
 
@@ -32,6 +33,9 @@ If you want to talk or get suggestion about your habit , you can talk with spend
 
 
 #  Technologies Used🔧
+
+
+
 * Gradio💻: Used to provide a modern and interactive web interface.
 * Gemini🔎🤖: Used for OCR from receipts and talking with them.
 * Tabulate🔢: Used to show receipt informations in tabulate form.
