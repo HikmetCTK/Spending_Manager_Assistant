@@ -50,3 +50,6 @@ If you want to talk or get suggestion about your habit , you can talk with spend
 ------------------------------------------------------------------------------------------------------
 
 ![spend_manager_asisstant](https://github.com/user-attachments/assets/5758af65-c8cb-477d-af82-ef85ba1f8eb1)
+
+# Future Updates 📢
+* Detailed Visualizations
