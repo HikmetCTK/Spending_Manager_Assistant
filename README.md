@@ -3,9 +3,7 @@
 
 # Project Demo Video 🎥
 
-https://github.com/user-attachments/assets/7d001480-0d47-450a-8807-cc0f296c5006
-
-
+https://github.com/user-attachments/assets/bdb1f60f-e183-4912-9594-99da5f2ab715
 
 
 
