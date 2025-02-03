@@ -111,8 +111,9 @@ CREATE TABLE `receipt_items` (
   `r_item_name` varchar(255) DEFAULT NULL,
   `r_quantity` int DEFAULT NULL,
   `r_price` decimal(10,2) DEFAULT NULL,
-  KEY `c_id` (`c_id`),
-  CONSTRAINT `receipt_items_ibfk_1` FOREIGN KEY (`c_id`) REFERENCES `receipt_header` (`all_receipt_id`) ON DELETE CASCADE
+  KEY `r_id` (`r_id`),
+  CONSTRAINT `receipt_items_ibfk_1` FOREIGN KEY (`r_id`) REFERENCES `receipt_header` (`all_receipt_id`) ON DELETE CASCADE
+  
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
