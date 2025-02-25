@@ -31,7 +31,7 @@ If you want to talk or get suggestion about your habit , you can talk with spend
 
 # Tools 🧰
 
-''🐍 Python | 🛢 MySQL | 🤖 Gemini AI | 💻 Gradio | 📊 Matplotlib | 🔢 Tabulate''
+``🐍 Python | 🛢 MySQL | 🤖 Gemini AI | 💻 Gradio | 📊 Matplotlib | 🔢 Tabulate``
 
 
 #  Technologies Used🔧
