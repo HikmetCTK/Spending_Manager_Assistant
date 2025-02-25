@@ -23,15 +23,15 @@ If you want to talk or get suggestion about your habit , you can talk with spend
 
 
 #  Project Features🚀
-* ✅ Flexible Upload♾️: Upload image from pc or take picture directly and upload it
-* ✅ High-Quality OCR🔎: High recognition quality on different type of receipt thanks to gemini 2.0 model.
-* ✅ Customizable Outputs⚡: Modify receipt details as needed and save them to the database.
-* ✅ Spending Overview🗺️: View your entire spending history in a readable format with graphical visualizations.
-* ✅ AI-Powered Chatbot💪: Analyze your spending and get suggestions with Gemini 1.5-Flash.
+*  Flexible Upload♾️: Upload image from pc or take picture directly and upload it
+*  High-Quality OCR🔎: High recognition quality on different type of receipt thanks to gemini 2.0 model.
+*  Customizable Outputs⚡: Modify receipt details as needed and save them to the database.
+*  Spending Overview🗺️: View your entire spending history in a readable format with graphical visualizations.
+*  AI-Powered Chatbot💪: Analyze your spending and get suggestions with Gemini 1.5-Flash.
 
 # Tools 🧰
 
-🐍 Python | 🛢 MySQL | 🤖 Gemini AI | 💻 Gradio | 📊 Matplotlib | 🔢 Tabulate
+''🐍 Python | 🛢 MySQL | 🤖 Gemini AI | 💻 Gradio | 📊 Matplotlib | 🔢 Tabulate''
 
 
 #  Technologies Used🔧
