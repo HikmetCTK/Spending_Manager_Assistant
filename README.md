@@ -58,3 +58,5 @@ If you want to talk or get suggestion about your habit , you can talk with spend
 
 # Future Updates 📢
 * Detailed Visualizations
+* <img src="[image.jpg](https://github.com/user-attachments/assets/32ef8c8f-9233-4bb9-b74b-1123a80ca675)" style="border-radius: 50%;" alt="Yuvarlak resim">
+
